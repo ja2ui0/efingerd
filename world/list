@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /etc/efingerd/log
+
+echo
+echo Who do you want to finger?
