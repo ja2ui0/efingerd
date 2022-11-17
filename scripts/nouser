@@ -1,6 +1,4 @@
 #!/bin/sh
 
 . /etc/efingerd/log 
-
-echo
 echo $3 does not want to be fingered.
