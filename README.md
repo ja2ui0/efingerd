@@ -1,6 +1,6 @@
 # Dockerized `efingerd` Finger Daemon
 
-[![Docker Image CI](https://github.com/ja2ui0/efingerd/actions/workflows/docker-image.yml/badge.svg)](https://github.com/ja2ui0/efingerd/actions/workflows/docker-image.yml)
+[![Build and Publish](https://github.com/ja2ui0/efingerd/actions/workflows/main.yml/badge.svg)](https://github.com/ja2ui0/efingerd/actions/workflows/main.yml)
 
 Thanks to [@lack@fosstodon.org](https://fosstodon.org/@lack) for some insight about `socat` that allowed a rebase from Ubuntu to Alpine, reducing the image size from ~120MB to about ~8MB. Also, binaries had to be recompiled for Alpine (musl) from [efingerd_1.6.7](http://deb.debian.org/debian/pool/main/e/efingerd/efingerd_1.6.7.orig.tar.gz) and [libident_0.32](https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/libident/0.32-1/libident_0.32.orig.tar.gz).
 
